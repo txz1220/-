@@ -196,6 +196,17 @@ div.productsAsideCategorys div.row {
 }
 </style>
 
+<!-- 1、首先找到要作用的目标   选择器的使用 $("div.rightMenu span")
+2、用什么事件来完成    这里是鼠标移入事件  $("div.rightMenu span").mouseenter(function(){
+	
+})
+
+3、获取制定目标的左边、上边、宽度的信息  var left=$(this).position().left;等等。根据这些信息计算出猫耳朵应该在哪里出现
+4、parseInt() 函数可解析一个字符串，并返回一个整数。
+5、获得了位置后就可以弄效果了，首先选择猫耳朵$("img#catear").css("left",destLeft)    设置淡入效果.fadeIn(500)
+6、隐藏   .mouseleave(function(){
+	$("img#catear").hide();
+}) -->
 <script>
 $(function(){
 	$("div.rightMenu span").mouseenter(function(){
