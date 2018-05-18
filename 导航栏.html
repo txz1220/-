@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js\jquery\2.0.0\jquery.min.js"></script>
+	<script src="js\bootstrap\3.3.6\bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css\bootstrap\3.3.6\bootstrap.min.css">
+	
+</head>
+<style>
+	body{
+	font-size: 12px;
+	font-family: Arial;
+}
+a{
+	color: #999;
+}
+.redColor{
+	color: #C40000  !important;
+}
+nav.top{
+	background-color: #f2f2f2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom:1px solid #e7e7e7;  //下边缘弄一个一像素的边框  更深的颜色有立体感
+}
+nav.top span, nav.top a{
+ color: #999;
+ margin:0px 10px 0px 10px;
+}
+nav.top a:hover{
+	color: #C40000;
+	text-decoration: none;  //去掉下划线
+}
+
+
+
+</style>
+<nav class="top">
+	<a href="#nowhere">
+		<span class="glyphicon glyphicon glyphicon-home redColor"></span>
+		天猫首页
+	</a>
+    <span>喵，欢迎来到天猫</span>     
+    <a href="#nowhere">请登录</a>
+    <a href="#nowhere">免费注册</a>
+
+    <span class="pull-right">
+    	<a href="forebought">我的订单</a>
+    	<a href="forevart">
+    		<span class="glyphicon glyphicon glyphicon-cart redColor"></span>
+    		购物车<strong>0</strong>件
+    	</a>
+    </span>
+
+</nav>
+
+</html>
