@@ -35,14 +35,17 @@
 ##### css
 
 1、首先设置body的字体样式
+
 2、顶层div的magin  最好居中显示 auto
+
 3、子元素最基本元素的设置长宽高等   float 让其水平显示
-4、overflow: hidden;
-隐藏溢出部分。 结合图片div的float:left,就可以做到基本信息div和图片div水平摆放，并且基本信息div自动占用剩下所有的宽度
+
+4、overflow: hidden; 隐藏溢出部分。 结合图片div的float:left,就可以做到基本信息div和图片div水平摆放，并且基本信息div自动占用剩下所有的宽度
 
 5、border-bottom-style: dotted; 设置虚线
 
 6、block  和 inline-block 的区别
+
 
 **display: inline-block;
 显示为内联，既可以设置大小，又能够不换行
@@ -50,13 +53,13 @@ display: block;
 显示为块级元素，自动换行**
 
 
+
 #### 2、产品页-产品详情页
 
 1、整体居中  margin: 40px auto;
 
+
 2、选择器  a.selected  被选中时呈现的样式
-
-
 
 3、position: relative;
 相对定位，为的是下一步使用:before新增加的元素做绝对定位。 因为绝对定位是基于定位了的父元素
